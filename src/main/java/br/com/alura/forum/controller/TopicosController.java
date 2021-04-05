@@ -26,13 +26,13 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
 
+import br.com.aluno.forum.dto.DetalhesTopicoDto;
+import br.com.aluno.forum.dto.TopicoDto;
+import br.com.alura.forum.form.AtualizacaoForm;
+import br.com.alura.forum.form.TopicoForm;
 import br.com.alura.forum.modelo.Topico;
 import br.com.alura.forum.repository.CursoRepository;
 import br.com.alura.forum.repository.TopicoRepository;
-import dto.DetalhesTopicoDto;
-import dto.TopicoDto;
-import form.AtualizacaoForm;
-import form.TopicoForm;
 
 @RestController
 @RequestMapping("/topicos")

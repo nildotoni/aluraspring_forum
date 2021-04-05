@@ -1,4 +1,4 @@
-package dto;
+package br.com.aluno.forum.dto;
 
 import java.time.LocalDate;
 
